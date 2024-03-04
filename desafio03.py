@@ -3,8 +3,10 @@
 ## Segundo numero: 
 ## A soma é 9
 
-num1 = input('Digite o primeiro número: ')
-num2 = input('Digite o primeiro número: ')
-soma = int(num1) + int(num2)
+num1 = int(input('Digite o primeiro número: '))
+num2 = int(input('Digite o primeiro número: '))
+soma = num1 + num2
 
-print('A soma é ' + str(soma))
+print('A soma entre {} e {} é igual a {}'.format(num1, num2, soma)) ## primeira forma de fazer
+
+## print('A soma é ' + str(soma)) segunda forma de fazer
